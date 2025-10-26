@@ -16,7 +16,7 @@ This repository contains a PyTorch implementation of the LightGCN paper ("LightG
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/1ritika/lightgcn-from-scratch
     cd lightgcn-from-scratch # Or your repo name
     ```
 2.  **Create a virtual environment (Recommended):**
