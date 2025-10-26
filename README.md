@@ -58,4 +58,3 @@ This repository contains a PyTorch implementation of the LightGCN paper ("LightG
 - Peak Recall@20: ~0.1175
 - Peak NDCG@20: ~0.1396
 
-*(Add more details or plots as needed)*
