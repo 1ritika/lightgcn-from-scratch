@@ -195,8 +195,8 @@ def main():
     NUM_EPOCHS = 100  # Start with 20, can increase later
     EVAL_K = 20
     
-    # We MUST use 'cpu' as we established the GPU driver is broken
-    DEVICE = torch.device('cpu')
+  
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using device: {DEVICE}")
 
     # --- 1. Load All Data ---
